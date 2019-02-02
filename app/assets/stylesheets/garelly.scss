@@ -1,0 +1,40 @@
+html{ font-family: Book Antiqua;//Set Font Type
+      color:#c0b283;//Set Font Color
+      background-color: #f5f5f5;//Set background
+    }
+
+.header{ float:top;
+         display:inline-block;
+         background: #ffffff;
+         width:100%;
+         height:50px;
+         box-shadow:0px 2px 2px 0px gray;
+         margin:0;
+         padding:0px;
+        }
+
+.header li{ list-style: none;
+           display:inline-block;
+           }
+.Arts { width:1220px;
+        margin:0 auto;
+        margin-top:40px;
+      }
+
+.Arts table{table-layout: fixed;
+            display:inline-block;
+            }
+
+.Arts tr{ width:270px;
+          margin-right:10px;
+        }
+
+
+.Arts img{ width:270px;
+           height:180px;
+           margin:0 auto;
+           margin-left:12px;
+           margin-right:12px;
+           }
+
+.Arts p{ margin-left:12px;}

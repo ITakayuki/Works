@@ -1,0 +1,16 @@
+current directory: c:/Users/Inoue/Desktop/PortFolio_Rails/portfolio/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+C:/Ruby24-x64/bin/ruby.exe -r ./siteconf20181229-11576-j2yegp.rb extconf.rb
+creating Makefile
+
+current directory: c:/Users/Inoue/Desktop/PortFolio_Rails/portfolio/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: c:/Users/Inoue/Desktop/PortFolio_Rails/portfolio/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+generating websocket_mask-x64-mingw32.def
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: c:/Users/Inoue/Desktop/PortFolio_Rails/portfolio/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20181229-11576-ir630k

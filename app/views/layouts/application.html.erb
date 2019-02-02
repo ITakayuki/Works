@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag "application" %>
+  </head>
+
+  <body>
+    <%= yield %>
+
+  <div id="Footer">
+    <hr>
+    <ul class="Link">
+      <li><%= link_to("Home","/") %></li>
+      <li><%= link_to("About","/about")%></li>
+      <li><%= link_to("Gallery","/garelly")%></li>
+      <li><%= link_to("Contact","/contact")%></li>
+    </ul>
+    <a href="#Top"><img src="top_move.png"width="40px"><a>
+  </div>
+  </body>
+</html>

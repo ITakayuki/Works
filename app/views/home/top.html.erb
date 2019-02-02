@@ -1,0 +1,49 @@
+<!------ BackGround ------>
+<div class="backimage">
+  <img src="/3dcg.png">
+</div>
+<div class="Opacity">
+</div>
+<div class="Display">
+<!------ LINK LIST ------->
+<ul>
+  <li><%= link_to("Home","/") %></li>
+  <li><%= link_to("About","/about")%></li>
+  <li><%= link_to("Gallery","/garelly")%></li>
+  <li><%= link_to("Contact","/contact")%></li>
+</ul>
+
+<!------ LINE ------>
+<div class="line">
+</div>
+
+<!------　LOGO TITLE　------>
+<div class="logo">
+<div class="title1">
+  <p>PORT</p>
+</div>
+<div class="title2">
+  <p>FOLIO</p>
+</div>
+
+</div>
+</div>
+<!------ Junp ------>
+<div class="jump">
+<a href="#works"><img src="/V.png"></a>
+</div>
+<!------ MOVIE ------>
+</div>
+<div class="rect">
+</div>
+
+<!------ Topics ------>
+<div class="works"><a name="works"><img src="/works5.png"></a>
+  <text>GARELLY</text>
+<hr>
+</div>
+<div class="icon">
+  <% @art.each do |arts| %>
+<img src="<%= arts.image %>">
+  <% end %>
+</div>

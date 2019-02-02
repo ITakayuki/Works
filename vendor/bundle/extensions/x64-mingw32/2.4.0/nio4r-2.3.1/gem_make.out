@@ -1,0 +1,14 @@
+current directory: c:/Users/Inoue/Desktop/PortFolio_Rails/portfolio/vendor/bundle/gems/nio4r-2.3.1/ext/nio4r
+C:/Ruby24-x64/bin/ruby.exe -r ./siteconf20181229-11576-xnfy6h.rb extconf.rb
+
+current directory: c:/Users/Inoue/Desktop/PortFolio_Rails/portfolio/vendor/bundle/gems/nio4r-2.3.1/ext/nio4r
+make "DESTDIR=" clean
+make: *** ターゲット 'clean' を make するルールがありません.  中止.
+
+current directory: c:/Users/Inoue/Desktop/PortFolio_Rails/portfolio/vendor/bundle/gems/nio4r-2.3.1/ext/nio4r
+make "DESTDIR="
+make: 'all' に対して行うべき事はありません.
+
+current directory: c:/Users/Inoue/Desktop/PortFolio_Rails/portfolio/vendor/bundle/gems/nio4r-2.3.1/ext/nio4r
+make "DESTDIR=" install
+make: 'install' に対して行うべき事はありません.
